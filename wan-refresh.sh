@@ -3,7 +3,7 @@
 # Triggers on schedule or when WAN health is bad
 
 LOGFILE="/mnt/data/wan-refresh.log"
-IFACE="eth8"                         # change if your WAN is different
+IFACE="eth8"
 PING_TARGET="8.8.8.8"
 DATE() { date '+%Y-%m-%d %H:%M:%S'; }
 
